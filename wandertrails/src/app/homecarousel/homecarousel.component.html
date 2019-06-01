@@ -1,0 +1,16 @@
+<header>
+    <h1>wandertrails</h1>
+</header>
+<div class="container">
+  <div class="row places">
+    <!-- each image -->
+    <div class="col-md-3" *ngFor="let data of data"> 
+      <a class="eachimage" title="{{data.title}}" href="https://www.wandertrails.com">
+        <img src={{data.imgURL}} alt= {{data.title}} />
+        <div class="maintitle">{{data.title}}</div>
+        <div class="subtitle">{{data.subtitle}}</div>
+      </a>
+    </div>
+    <!-- end of each image -->
+  </div>
+</div>

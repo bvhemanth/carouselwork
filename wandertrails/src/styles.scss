@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+@media (min-width: 1200px)
+{
+    .container {
+        width: 980px !important;
+    }
+}
+
+.slick-prev,
+.slick-next{
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+    cursor: pointer;
+}
+.slick-prev {
+    left: -70px;
+}
+.slick-next{
+    right: -70px;
+}
+.slick-disabled{
+    cursor: auto; //disable the left or right arrow when last slider or first slider
+}
+.col-md-3{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
